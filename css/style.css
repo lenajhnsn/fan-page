@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color:#271b1b ;
+    color: #edefe1;
+    font-family: Arial, sans-serif;
+    border: 10px;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+    
+h1{
+    background-color:#5c5757;
+}
+
+h2 {
+    text-decoration: underline;
+}
+#facts-section > h2{
+    text-align: center;
+
+}
+blockquote {
+    font-style: italic;
+}
+
+#facts-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#facts-section th, #facts-section td {
+    border: 3px solid #5c5757;
+    padding: 8px;
+    text-align: left;
+}
+
+#facts-section th {
+    background-color: #5c5757;
+}
+
+#designers > ul{
+    text-align: left;
+    color: #edefe1;
+
+}
+#links-section > h2{
+    text-decoration: underline;
+}

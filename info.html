@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Information</title>
+    <link rel="stylesheet" href="css\form-styles.css">
+</head>
+<body>
+    <main>
+        <h1>Submit Your Information</h1>
+        <form action="http://dreamingofdesign.com/submit" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="date-of-birth">Date of Birth:</label>
+                <input type="date" id="date-of-birth" name="date-of-birth">
+            </div>
+            <div>
+                <label for="favorite-color">Favorite Color:</label>
+                <input type="color" id="favorite-color" name="favorite-color">
+            </div>
+            <div>
+                <label for="lucky-number">Lucky Number:</label>
+                <input type="number" id="lucky-number" name="lucky-number">
+            </div>
+            <div>
+                <label for="confirmation">Confirmation:</label>
+                <input type="checkbox" id="confirmation" name="confirmation">
+                I confirm the data is correct.
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
