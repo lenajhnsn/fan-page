@@ -44,12 +44,12 @@ blockquote {
     gap: 15px;
     list-style: none;
     justify-content: center;
+} 
     
-    
-a{
+a {
     color: #edefe1;
 }
 
-#links-section > h2{
+#links-section > h2 {
     text-decoration: underline;
 }
